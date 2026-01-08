@@ -205,3 +205,39 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Emacs temporary files ---
+# Backup files (usually end with ~)
+*~
+
+# Auto-save files (start and end with #)
+\#*\#
+
+# Directory-local variables (optional - keep if you want team settings)
+.dir-locals.el
+
+# Network security files
+/network-security.data
+
+# --- Elisp Compilation ---
+# Compiled byte-code
+*.elc
+
+# --- Packages and Environment ---
+# If you use 'elpa' or 'straight' locally
+/elpa/
+/.emacs.desktop
+/.emacs.desktop.lock
+node_modules/
+dist/
+
+# --- Specialized Emacs Tools ---
+# Flymake temporary files
+*_flymake.el
+
+# TRAMP connection history
+tramp
+
+# Org-mode agenda thumbnails or temporary export files
+.org-id-locations
+*_archive
